@@ -14,7 +14,7 @@ def guess_secret(word: str, secret: str, idx: int = 0) -> bool:
             return False
         else:
             print(
-                f"{word[idx]} is at index {idx} for both words! Checking next letters... "
+                f"{word[idx]} is at index {idx} for both words!Checking next letters..."
             )
             return guess_secret(word=word, secret=secret, idx=idx + 1)
 

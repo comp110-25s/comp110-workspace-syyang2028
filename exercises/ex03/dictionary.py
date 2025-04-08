@@ -14,7 +14,7 @@ def invert(dict_input: dict[str, str]) -> dict[str, str]:
     return result_dictionary
 
 
-"""Functing Counting # of times a value Appears in List"""
+"""Function Counting # of times a value Appears in List"""
 
 
 def count(list_input: list[str]) -> dict[str, int]:
